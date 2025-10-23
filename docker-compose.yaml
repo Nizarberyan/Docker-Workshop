@@ -1,0 +1,15 @@
+services:
+  app:
+    build: .
+    container_name: workshop_testing
+    ports:
+      - "3001:3000"
+    environment:
+      - MONGODB_URI=mongodb://nizar:nizar@db:27017/testing?authSource=admin
+      - PORT=3000
+  db:
+    image: mongo:8
+    restart: unless-stopped
+    environment:
+        MONGO_INITDB_ROOT_USERNAME: nizar
+        MONGO_INITDB_ROOT_PASSWORD: nizar
