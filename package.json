@@ -1,0 +1,19 @@
+{
+  "name": "docker-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Nizarberyan/Docker-Workshop.git"
+  },
+  "author": "Nizar Beriane",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Nizarberyan/Docker-Workshop/issues"
+  },
+  "homepage": "https://github.com/Nizarberyan/Docker-Workshop#readme"
+}
