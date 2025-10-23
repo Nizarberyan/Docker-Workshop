@@ -8,12 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Nizarberyan/Docker-Workshop.git"
+    "url": "git+ssh://github.com/Nizarberyan/Docker-Workshop.git"
   },
   "author": "Nizar Beriane",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/Nizarberyan/Docker-Workshop/issues"
   },
-  "homepage": "https://github.com/Nizarberyan/Docker-Workshop#readme"
+  "homepage": "https://github.com/Nizarberyan/Docker-Workshop#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2"
+  }
 }
